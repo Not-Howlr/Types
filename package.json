@@ -1,6 +1,6 @@
 {
   "name": "@not-howlr/types",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "dev types",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",

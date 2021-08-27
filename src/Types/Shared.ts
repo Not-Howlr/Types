@@ -6,5 +6,8 @@
  * Generic IUser object
  */
 export interface IUser {
-	username: string
+	uid: string,
+	username: string,
+	token_version: number,
+	is_verified: boolean
 }
