@@ -6,6 +6,9 @@
  * Generic IUser object
  */
 export interface IUser {
+    uid: string;
     username: string;
+    token_version: number;
+    is_verified: boolean;
 }
 //# sourceMappingURL=Shared.d.ts.map
