@@ -1,13 +1,24 @@
 /**
- * Websocket Handler Enum
+ * Websocket Server Handler Enum
  *
  * @export
  * @enum {number}
  */
-export enum HandlerTypes {
-	CONNECION = "connection",
+export enum ServerHandler {
+	CONNECTION = "connection",
 	ERROR = "error",
-	RESPONSE = "response",
 	SEND_MESSAGE = "send_message",
-	RECIEVE_MESSAGE = "recieve_message",
+	RESPONSE = "response",
+	RECIEVE_MESSAGE = "recieve_message"
+}
+
+/**
+ * Websocket Client Handler Enum
+ *
+ * @export
+ * @enum {number}
+ */
+export enum ClientHandler {
+	CONNECT = "connect",
+	DISCONNECT = "disconnect"
 }
