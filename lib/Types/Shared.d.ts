@@ -11,4 +11,17 @@ export interface IUser {
     token_version: number;
     is_verified: boolean;
 }
+/**
+ *
+ * @export
+ * @interface INewMessage
+ * ---
+ * New Message Type
+ */
+export interface INewMessage {
+    to: string;
+    from: string;
+    content: string;
+    sent: Date;
+}
 //# sourceMappingURL=Shared.d.ts.map

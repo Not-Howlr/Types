@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import * as Shared from "./Types/Shared";
+import * as Constants from "./Types/Constants";
 
-// game types
 export import IUser = Shared.IUser;
+export import HandlerTypes  = Constants.HandlerTypes;
