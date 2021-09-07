@@ -23,5 +23,6 @@ export interface INewMessage {
     from: string;
     content: string;
     sent: Date;
+    room_uid?: string;
 }
 //# sourceMappingURL=Shared.d.ts.map

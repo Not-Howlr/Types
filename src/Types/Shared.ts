@@ -23,5 +23,6 @@ export interface INewMessage {
 	to: string,
 	from: string,
 	content: string,
-	sent: Date
+	sent: Date,
+	room_uid?: string
 }
